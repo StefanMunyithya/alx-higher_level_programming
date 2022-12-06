@@ -1,3 +1,4 @@
 #!/usr/bin/python3
 
-print("{}".format("abcdefghijklmnopqrstuvwxyz"), end="")
+for ch in "abcdefghijklmnopqrstuvwxyz":
+    print("{}".format(ch), end="")
